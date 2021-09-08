@@ -15,7 +15,7 @@ Mini Project for Project Based C Learning
 # Badges
 |     CI             | code Qulality static code| contridution Check| unit test|Code quality Score| Code Grade|
 |--------------------------|-------------------------------|-------------------------|--------------|-------------------------|---------------|
-|                 |[![Code Quality - Static Code - cppcheck](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/c-cpp.yml)
+|                 |[![Code Quality - Static Code - cppcheck](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/c-cpp.yml)|   |[![Unit Testing - Unity](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/c-test.yml/badge.svg)](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/c-test.yml)|
 
 Folder Structure
 -------------------------
