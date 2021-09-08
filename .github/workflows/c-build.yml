@@ -1,10 +1,9 @@
-name: C/C++ CI - Build Status
-
+name: CodeQuality DCA Valgrind
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -13,5 +12,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
-      run: make execute -C 3_Implementation
+    - name: apt install dependency
+      run: |
+        sudo apt-get -y install valgrind
+        sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
+    - name: make test
+      run: |
+        make execute -C 3_Implementation
+        valgrind 3_Implementation/Build/Math_Quiz.out
+© 2021 GitHub, Inc.
