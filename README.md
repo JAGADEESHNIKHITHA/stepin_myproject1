@@ -12,9 +12,9 @@ Mini Project for Project Based C Learning
 
 # Badges
 ---------
-|Build|Unit Test|cppcheck|Valgrind|Codacy|Code Coverage|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|![C/C++ CI - Build Status](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-build.yml/badge.svg)|![C/C++ CI](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-test.yml/badge.svg)|![Code Quality - Static Code - cppcheck](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-cpp.yml/badge.svg)|![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/stepin654321/MiniProject_Template/workflows/Valgrind/badge.svg)|![Codacy Badge](https://app.codacy.com/project/badge/Grade/91072f494ca04f7791ef9b8020817ac3)|![CI-Coverage](https://github.com/Manikanta489/Stepin256240-MiniProject/actions/workflows/c-codecoverage.yml/badge.svg)|)
+|Build|Unit Test|cppcheck|Valgrind|Coverage|Codacy|Git Inspector|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|![C/C++ CI](https://github.com/ShodaPratheepKumarReddy/stepin255967/actions/workflows/c-build.yml/badge.svg)|![Unit Testing](https://github.com/ShodaPratheepKumarReddy/stepin255967/actions/workflows/unit-test.yml/badge.svg)|![Code Quality - Cppcheck](https://github.com/ShodaPratheepKumarReddy/stepin255967/actions/workflows/cppcheck.yml/badge.svg)|![CodeQuality - Valgrind](https://github.com/ShodaPratheepKumarReddy/stepin255967/actions/workflows/Valgrind.yml/badge.svg)|![CI-Coverage](https://github.com/ShodaPratheepKumarReddy/stepin255967/actions/workflows/gcov.yml/badge.svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a0cc3a24a3aa4406b8f0cee277634e92)](https://www.codacy.com/gh/ShodaPratheepKumarReddy/stepin255967/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ShodaPratheepKumarReddy/stepin255967&amp;utm_campaign=Badge_Grade)|![Git Inspector](https://github.com/ShodaPratheepKumarReddy/stepin255967/actions/workflows/gitinspector.yml/badge.svg)|
 
 
 Folder Structure
