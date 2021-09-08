@@ -20,28 +20,37 @@ E- Capacity of the system (Finite/Infinite)
 
 F- Size of calling population (Finite/Infinite)
 
-In queuing theory, arrivals are distributed using Poission probability function. Thus, it is worth to follow exponential probability distibution function for service time.The queuing models for a Fast Charging Station evaluates various queue measures such as Average number of EVs in the queue, Average number of EVs in the FCS, Average time spent by EV in the queue, Average time spent by EV in the FCS and probability of finding EVs in the FCS. However, the average arrival rate at FCS and average service time in FCS should be known to formulate the queue measures as arrivals and service time follows Poisson and exponential service distribution respectively. Poisson and exponential probability distributions are indicated using 'M' to indicate the memoryless property associated with these distributions. The number of parallel servers determines the service level in the FCS. Generally, First In First Out queue discipline is followed across all queuing models to show faith on the first customer. The capacity of the system is the area of the service station. The size of calling population determines which type of customers can arrive to the service station. The following figure shows the description of FCS.
 
-Represenatation of FCS
+In queuing theory, arrivals are distributed using Poission probability function. Thus, it is worth to follow exponential probability distibution function for service time.The queuing models for a Fast Charging Station evaluates various queue measures such as Average number of EVs in the queue, Average number of EVs in the FCS, Average time spent by EV in the queue, Average time spent by EV in the FCS and probability of finding EVs in the FCS. However, the average arrival rate at FCS and average service time in FCS should be known to formulate the queue measures as arrivals and service time follows Poisson and exponential service distribution respectively. Poisson and exponential probability distributions are indicated using 'M' to indicate the memoryless property associated with these distributions. The number of parallel servers determines the service level in the FCS. Generally, First In First Out queue discipline is followed across all queuing models to show faith on the first customer. The capacity of the system is the area of the service station. The size of calling population determines which type of customers can arrive to the service station. The following figure shows the description of FCS.
+![1](https://user-images.githubusercontent.com/89508265/132455696-3161fb73-0b80-46a6-be57-855117c55d12.png)
+
+
+                                                             Represenatation of FCS
 
 The optimum level of service guarantees good quality of service and it can be evaluated using two models : (1) Cost Model and (2) Aspiration level model. Both model proves taht a higher service level reduces the waiting time of customers in a service station, but higher service level increases the costs of the station. Thus the goal is to strike the balance between the service level and the waiting time of customers in the system. The main aim of the cost model is to minimize the sum of facility costs and waiting time costs. Generally these parameters are difficult to estimate. Thus, there is a necessity to evaluate the optimum service level for a service station which does not require any estimation of parameters.Aspiration level model is an another decision making model which allievates this problem by limiting the time spent by EV in FCS and percentage idleness of charging piles in FCS. Minimizing the time spent by EV in FCS maximizes the customer's satisfaction and minimizing the percenatge idlness of charging piles shows faith in money utilized in purchasing the charging piles. Aspiration level model is used in preplan the Fast Charging Stations in EV developing countries like India, as it has less dependency on the data.
 
 Research
+--------
+Fast charging is also known as rapid charging or quick charging and aims to recharge EV batteries within a short period similar to that for gasoline refuelling of conventional vehicles. The time necessary for fast charging is about 20 minutes for charging up 80% capacity. Thus, the total travelling distance of EVs can be greatly extended, provided that there are sufficient fast charging stations on the way. The key to fast charging stations is the off-board fast charging module, which can output 35 kW or even higher. The corresponding voltage and current ratings are 45–450 V and 20–200 A, respectively. As both power and current ratings are so high, such recharging facilities have to be installed in supervised stations or service centres.
+Although fast charging enables EVs to have a driving range similar to that of conventional vehicles, it creates adverse impacts on our power system, namely harmonic contamination and high current demand superimposing on the peak-hour consumption, violating the principle of demand-side management.
 Objectives
+----------
 To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
 Costs and Features
+------------------
 Previously Aspiration level model is carried out using hand calculations.
 Hand calculations are complex to evaluate queue measures.
 With the introduction of digital computers, Aspiration level model is solved with the help of programming languages such as C.
 Using C language, the model is solved in quick time.
 Fast Charging Station in Beijing is considered for the test case study. The following table lists out the parameters for the FCS.
 
-Parameter	Value	Parameter	Value
-Average Arrival Rate	6.9 EVs/h	Electricity Consumed	0.2 kWh/km
-Average Service rate	2 EVs/h	Capcity of the battery	30 kWh
-Radius of FCS	1.24 km	Electricity charging speed	40kW
-Density of EV's	150EV/km2	Total operatinh hours of FCS	16h
-Distance travelled by EV before recharging	50 km	Incoming SOC of EV	0.3
+Parameter|	Value	Parameter|	Value
+----------|----------------|----------
+Average Arrival Rate|	6.9 EVs/h| Electricity Consumed|	0.2 kWh/km
+Average Service rate|	2 EVs/h|	Capcity of the battery|	30 kWh
+Radius of FCS|	1.24 km|	Electricity charging speed|	40kW
+Density of EV's|	150EV/km2|	Total operatinh hours of FCS|	16h
+Distance travelled by EV before recharging|	50 km|	Incoming SOC of EV|	0.3
 The inputs which the user has to enter are explained below:
 
 - Input 1-> Average arrival rate of FCS and Average service rate of FCS  (should be positive)
@@ -52,30 +61,40 @@ If the entered data is not valid i.e., if any data entered by the user is non-po
 If memory couldn't be allocated an error message is displayed for the same
 If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
 SWOT ANALYSIS
+-------------
 ![image](https://user-images.githubusercontent.com/89508265/132453786-0567524e-f7ce-483e-9027-425d078d7995.png)
 
-image
+
 
 4W's and 1'H
+------------
 Who
+----
 The solution of the aspiration level model helps the FCS in providing quality of service to the EV users.
 
 What
+-----
 The aspiration level model is one of the decision making model which is used to find the suitable service level for the Fast Charging Stations.
 
 When
+----
 The aspiration level model is used during the pre-planning of the Fast Charging Stations.
 
 Where
+-----
 The aspiration level model is used in many service centers such as Fast Charging Stations.
 
 How
+----
 The aspiration level model determines the optimal number of charging piles for a FCS so that it can give the best serice to the EV users.
 
 Detail Requirements
+-------------------
 High Level Requirements
-ID	Description	Category	Status
-HR01	To solve aspiration level model for given description of FCS	Technical	Implemented
+-----------------------
+ID|	Description|	Category|	Status
+---|-------------|-----------|-------
+HR01|	To solve aspiration level model for given description of FCS|	Technical|	Implemented
 Low Level Requirements
 -----------------------
 ID|	Description|	HLR| ID|	Status
