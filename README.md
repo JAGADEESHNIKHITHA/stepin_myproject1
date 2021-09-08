@@ -9,6 +9,10 @@ Mini Project for Project Based C Learning
 <a href="https://frontend.code-inspector.com/public/user/github/JAGADEESHNIKHITHA">
    <img src="https://code-inspector.com/public/badge/user/github/JAGADEESHNIKHITHA?style=light" alt="code inspector badge" />
 </a>
+
+# Badges
+|     CI             | code Qulality static code| contridution Check| unit test|Code quality Score| Code Grade|
+|--------------------------|-------------------------------|-------------------------|--------------|-------------------------|---------------|
 [![CI](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/main.yml/badge.svg)](https://github.com/JAGADEESHNIKHITHA/stepin_myproject1/actions/workflows/main.yml)
 
 Folder Structure
