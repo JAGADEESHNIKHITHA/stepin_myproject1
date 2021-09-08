@@ -31,11 +31,14 @@ The optimum level of service guarantees good quality of service and it can be ev
 
 Research
 --------
-Fast charging is also known as rapid charging or quick charging and aims to recharge EV batteries within a short period similar to that for gasoline refuelling of conventional vehicles. The time necessary for fast charging is about 20 minutes for charging up 80% capacity. Thus, the total travelling distance of EVs can be greatly extended, provided that there are sufficient fast charging stations on the way. The key to fast charging stations is the off-board fast charging module, which can output 35 kW or even higher. The corresponding voltage and current ratings are 45–450 V and 20–200 A, respectively. As both power and current ratings are so high, such recharging facilities have to be installed in supervised stations or service centres.
-Although fast charging enables EVs to have a driving range similar to that of conventional vehicles, it creates adverse impacts on our power system, namely harmonic contamination and high current demand superimposing on the peak-hour consumption, violating the principle of demand-side management.
+
+Fast charging is also known as rapid charging or quick charging and aims to recharge EV batteries within a short period similar to that for gasoline refuelling of conventional vehicles. The time necessary for fast charging is about 20 minutes for charging up 80% capacity. Thus, the total travelling distance of EVs can be greatly extended, provided that there are sufficient fast charging stations on the way. The key to fast charging stations is the off-board fast charging module, which can output 35 kW or even higher. The corresponding voltage and current ratings are 45–450 V and 20–200 A, respectively. As both power and current ratings are so high, such recharging facilities have to be installed in supervised stations or service centres. Although fast charging enables EVs to have a driving range similar to that of conventional vehicles, it creates adverse impacts on our power system, namely harmonic contamination and high current demand superimposing on the peak-hour consumption, violating the principle of demand-side management.
+
 Objectives
 ----------
+
 To find the optimum charging piles for a Fast Charging Station using Aspiration level model.
+
 Costs and Features
 ------------------
 Previously Aspiration level model is carried out using hand calculations.
