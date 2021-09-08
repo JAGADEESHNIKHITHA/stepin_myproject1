@@ -12,6 +12,9 @@ Mini Project for Project Based C Learning
 
 # Badges
 ---------
+# Badges
+|     CI             | code Qulality static code| contridution Check| unit test|Code quality Score| Code Grade|
+|--------------------------|-------------------------------|-------------------------|--------------|-------------------------|---------------|
 
 
 Folder Structure
