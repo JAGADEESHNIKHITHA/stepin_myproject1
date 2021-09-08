@@ -19,4 +19,4 @@ jobs:
     - name: make test
       run: |
         make execute -C Implementation
-        valgrind 3_Implementation/Build/Math_Quiz.out
+        valgrind Implementation/Build/Math_Quiz.out
