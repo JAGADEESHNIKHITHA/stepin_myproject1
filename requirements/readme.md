@@ -1,4 +1,5 @@
 Requirements
+-------------
 Introduction
 The rise in population across the globe has created a lot of opportunities in the transportation sector. Electric Vehicle (EV) is the sustainable solution to mitigate the emission of green house gases from the internal combustion engine vehicles. Thus, Fast Charging Stations (FCS) are gaining a lot of importance from the EV sector. The battery inside the EV gets refulled at the FCS in a quicker pace. However, the EV has to wait in queue before getting into the service as the charging time of the battery is not in fraction of seconds. Thus, the FCS has to plan its service so as to minimize the waiting time of the EV user in the station. This guarantees the quality of service to the EV users. The number of charging piles determines the level of service for a FCS. Any service station can be represented using a queuing model. Queuing theory is the branch of the Operations Research which formulates various queuing models. Queuing models arise from two independent models: (1) Pure birth model , (2) Pure deadth model. In pure birth model, only arrivals can occur whereas, in pure deadth model only the departures can take place. The combination of these two models can accurately represent any service station, where both arrivals and departures occur.
 
@@ -51,6 +52,8 @@ If the entered data is not valid i.e., if any data entered by the user is non-po
 If memory couldn't be allocated an error message is displayed for the same
 If the optimal number of charging piles can't be found for the entered data -1 and -1 is returned for minimum and optimum charging piles.
 SWOT ANALYSIS
+![image](https://user-images.githubusercontent.com/89508265/132453786-0567524e-f7ce-483e-9027-425d078d7995.png)
+
 image
 
 4W's and 1'H
@@ -74,9 +77,11 @@ High Level Requirements
 ID	Description	Category	Status
 HR01	To solve aspiration level model for given description of FCS	Technical	Implemented
 Low Level Requirements
-ID	Description	HLR ID	Status
-LR01	Determine the system parameters of FCS from user input	HR01	Implemented
-LR02	Determine the feasible solutions of charging piles for the Aspiration level model	HR01	Implemented
-LR03	Evaluate the queue parameters	HR01	Implemented
-LR04	Include the supporting functions to solve queue parameters	HR05	Implemented
-LR05	Decide the optimal charging piles for the FCS which guarantee quality of service	HR05	Implemented
+-----------------------
+ID|	Description|	HLR| ID|	Status
+---|------------|-----|---|--------
+LR01|	Determine the system parameters of FCS from user input| HR01|	Implemented
+LR02|	Determine the feasible solutions of charging piles for the Aspiration level model|	HR01|Implemented
+LR03|	Evaluate the queue parameters|	HR01|	Implemented
+LR04| Include the supporting functions to solve queue parameters|	HR05|	Implemented
+LR05|	Decide the optimal charging piles for the FCS which guarantee quality of service|	HR05|	Implemented
