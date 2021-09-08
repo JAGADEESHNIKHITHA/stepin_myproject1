@@ -20,4 +20,4 @@ jobs:
       run: |
         make execute -C 3_Implementation
         valgrind 3_Implementation/Build/Math_Quiz.out
-© 2021 GitHub, Inc.
+
