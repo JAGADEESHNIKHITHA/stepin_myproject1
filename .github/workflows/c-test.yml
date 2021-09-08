@@ -1,4 +1,4 @@
-name: Unit Testing - Unity
+name: C/C++ CI - Build Status
 
 on:
   push:
@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make run -C 3_Implementation
+      run: make execute -C 3_Implementation
